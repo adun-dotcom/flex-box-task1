@@ -99,7 +99,8 @@ main {
 
 .flex-image {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    
 }
 
 img {
@@ -148,6 +149,8 @@ img {
 
     .fa {
         visibility: visible;
+        display: block;
+        font-size: 50px;
     }
  
     .nav-lists {
@@ -156,8 +159,8 @@ img {
 
     .flex-image {
         width: 100%;
-        display: block;
-        margin: 10px 40px;
+        flex-direction: column;
+        
     }
 
     .img {
@@ -174,7 +177,7 @@ img {
 @media only screen and (min-width:900px) and (max-width: 1200px) {
 
     .flex-image {
-        justify-content: center;
+        flex-direction: row;
     }
 
     .img {
