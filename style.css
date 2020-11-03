@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+body {
+    font-size: 25px;
+    width: 100%;
+    background-color:  #eee;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    
+}
+
+
+
+
+nav {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    color:  #767676;
+    background-color: #fff;
+}
+
+
+
+
+
+
+nav .btn {
+    margin-left: auto;
+    background-color: hsl(224, 70%, 49%);
+    border: none;
+    padding: 20px 50px;
+    border-radius: 50px;
+}
+
+
+.btn a{
+    font-size: 25px;
+    font-family: "Poppins";
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+.nav-lists {
+    display: flex;
+}
+
+.nav-lists li {
+    justify-content: stretch;
+    margin-right: 40px;
+    font-weight: 700;
+}
+
+
+.nav-lists li:first-child {
+    color: #262626;
+}
+
+main {
+    width: 100%;
+    margin-top: 30px;
+   
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 90px;
+    text-align: center;
+   
+}
+
+
+.flex-text h1 {
+    font-weight: 700;
+}
+
+.flex-text p {
+    font-size: 20px;
+    line-height: 2rem;
+    margin-top: 30px;
+    color:  #767676;
+    
+   
+}
+
+.flex-image {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    object-fit: cover;
+    width: 250px;
+    height: 200px;
+
+}
+
+.img {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    text-align: left;
+    width: 300px;
+    height:300px;
+    
+}
+
+
+.btn-img {
+    padding: 15px 40px;
+    background-color:hsl(224, 70%, 49%) ;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+}
+
+.btn-img a{
+    font-family: "Poppins";
+    font-weight: 500;
+    color: #fff;
+    font-size: 20px;
+}
+
+.fa {
+    visibility: hidden;
+    font-size: 40px;
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 900px) {
+
+    .container {
+        width: auto;
+    }
+
+    .fa {
+        visibility: visible;
+    }
+ 
+    .nav-lists {
+        display: none;
+    }
+
+    .flex-image {
+        width: 100%;
+        display: block;
+        margin: 10px 40px;
+    }
+
+    .img {
+        margin-bottom: 30px;
+    }
+
+
+    
+    
+}
+
+
+
+@media only screen and (min-width:900px) and (max-width: 1200px) {
+
+    .flex-image {
+        justify-content: center;
+    }
+
+    .img {
+        padding-right: 10px;
+    }
+}
+
+
+  
+  
+
+    
+
+
+   
